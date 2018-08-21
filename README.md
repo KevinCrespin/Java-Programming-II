@@ -8,7 +8,8 @@ Algorithm development for Object Oriented Programming; inheritance, polymorphism
 **********************************************************************************************************************************
 Content:
 
-Projects (P_01 - P_29).
+Projects (P_01 - P_29)
+
 Homework (Proj_01 - Proj_09)
 **********************************************************************************************************************************
 Program descriptions available on each corresponding java files, this is a personal collection of problem approaches for multiple projects, and homework for CS 2012 class (Spring 2018 @ Cal State LA).
