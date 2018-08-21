@@ -8,7 +8,7 @@ import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
 class CalStateStudent3 {
-    int CIN;
+   	int CIN;
 	String name;
 	int age;
 	String major;
@@ -341,14 +341,14 @@ public class P_25 Project_08 extends Application {
 		inputPane.add(modifyButton, 0, 3);
 		inputPane.add(exitButton, 0, 4);
 
-        GridPane outputPane = new GridPane();
+        	GridPane outputPane = new GridPane();
 
-        outputPane.add(displayArea, 0, 0);
+        	outputPane.add(displayArea, 0, 0);
 
-        GridPane mainPane = new GridPane();
+        	GridPane mainPane = new GridPane();
         
-        mainPane.add(inputPane, 0, 0);
-        mainPane.add(outputPane, 1, 0);
+        	mainPane.add(inputPane, 0, 0);
+        	mainPane.add(outputPane, 1, 0);
 
 		Scene mainScene = new Scene(mainPane, 590, 600);
 
@@ -372,14 +372,12 @@ public class P_25 Project_08 extends Application {
 		sortByAgeButton.setMaxWidth(Double.MAX_VALUE);
 		
 		sortByNothingButton.setOnAction(e->{
-			// Menu
 			displayArea.setText(menu.showStudents());
 			printByStage.close();
 		}
 		);
 		
 		sortByCINButton.setOnAction(e->{
-			// Menu
 			menu.showStudentByCIN();
 			displayArea.setText(menu.showStudents());
 			printByStage.close();
@@ -387,7 +385,6 @@ public class P_25 Project_08 extends Application {
 		);
 		
 		sortByNameButton.setOnAction(e->{
-			// Menu
 			menu.showStudentByName();
 			displayArea.setText(menu.showStudents());
 			printByStage.close();
@@ -395,7 +392,6 @@ public class P_25 Project_08 extends Application {
 		);
 		
 		sortByAgeButton.setOnAction(e->{
-			// Menu
 			menu.showStudentByAge();
 			displayArea.setText(menu.showStudents());
 			printByStage.close();
@@ -483,13 +479,12 @@ public class P_25 Project_08 extends Application {
 		addStudentButton.setMaxWidth(Double.MAX_VALUE);
 		
 		addStudentButton.setOnAction(e->{
-			// Menu
 			menu.addStudentGraduate(Integer.parseInt(field_CIN.getText()), 
-										 field_name.getText(),
-										 Integer.parseInt(field_age.getText()),
-										 field_major.getText(),
-										 Integer.parseInt(field_units.getText()),
-										 field_university.getText());
+								 field_name.getText(),
+								 Integer.parseInt(field_age.getText()),
+								 field_major.getText(),
+								 Integer.parseInt(field_units.getText()),
+								 field_university.getText());
 			displayArea.setText(menu.showStudents());
 			addGraduateStage.close();
 		}
@@ -529,7 +524,6 @@ public class P_25 Project_08 extends Application {
 		addStudentButton.setMaxWidth(Double.MAX_VALUE);
 		
 		addStudentButton.setOnAction(e->{
-			// Menu
 			menu.addStudentUndergraduate(Integer.parseInt(field_CIN.getText()), 
 					 				field_name.getText(),
 					 				Integer.parseInt(field_age.getText()),
@@ -603,7 +597,6 @@ public class P_25 Project_08 extends Application {
 		deleteStudentButton.setMaxWidth(Double.MAX_VALUE);
 		
 		deleteStudentButton.setOnAction(e->{
-			// Menu
 			menu.deleteStudentByCIN(Integer.parseInt(field_CIN.getText()));
 			displayArea.setText(menu.showStudents());
 			deleteCINStage.close();
@@ -634,7 +627,6 @@ public class P_25 Project_08 extends Application {
 		deleteStudentButton.setMaxWidth(Double.MAX_VALUE);
 		
 		deleteStudentButton.setOnAction(e->{
-			// Menu 
 			menu.deleteStudentByName(field_name.getText());
 			displayArea.setText(menu.showStudents());
 			deleteNameStage.close();
@@ -731,7 +723,6 @@ public class P_25 Project_08 extends Application {
 		gridPane.add(undergraduateButton, 1, 7);
 		
 		undergraduateButton.setOnAction(e->{
-			// Menu
 			menu.modifyStudentByCIN("UNDERGRADUATE", 
 									Integer.parseInt(field_modifyCIN.getText()),
 									Integer.parseInt(field_CIN.getText()), 
@@ -746,7 +737,6 @@ public class P_25 Project_08 extends Application {
 		);
 		
 		graduateButton.setOnAction(e->{
-			// Menu
 			menu.modifyStudentByCIN("GRADUATE", 
 									Integer.parseInt(field_modifyCIN.getText()),
 									Integer.parseInt(field_CIN.getText()), 
@@ -812,7 +802,6 @@ public class P_25 Project_08 extends Application {
 		gridPane.add(undergraduateButton, 1, 7);
 		
 		undergraduateButton.setOnAction(e->{
-			// Menu
 			menu.modifyStudentByName("UNDERGRADUATE", 
 									field_modifyName.getText(),
 									Integer.parseInt(field_CIN.getText()), 
@@ -827,7 +816,6 @@ public class P_25 Project_08 extends Application {
 		);
 		
 		graduateButton.setOnAction(e->{
-			// Menu
 			menu.modifyStudentByName("GRADUATE", 
 									field_modifyName.getText(),
 									Integer.parseInt(field_CIN.getText()), 
