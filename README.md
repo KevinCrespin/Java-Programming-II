@@ -1,7 +1,7 @@
 # CS_2012
 # 2/3 Java Classes
 # This repository was created for STORAGE ONLY
-# Code is missing documentation and 
+# Code is missing documentation and comments
 
 Computer Science 2012
 **********************************************************************************************************************************
