@@ -1,7 +1,7 @@
 # CS_2012
 # 2/3 Java Classes
 # This repository was created for STORAGE ONLY
-# This repository cointains my early programs writen in JAVA, so... expect MESSY an UNEFFICIENT code. 
+# Code is missing documentation and 
 
 Computer Science 2012
 **********************************************************************************************************************************
