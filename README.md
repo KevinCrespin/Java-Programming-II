@@ -1,20 +1,23 @@
-# CS_2012
-# 2/3 Java Classes
-# This repository was created for STORAGE ONLY
-# Code is missing documentation and comments
+# CS 2012 - Introduction to Java Programming II
 
-Computer Science 2012
-**********************************************************************************************************************************
+This is a personal collection of my programming approaches for Introduction to Java Programming II
+
+Computer Science 2012 (Fall 2017 @ Cal State LA)
+****************************************************************************************************************************
+
 Course Description:
 
-Algorithm development for Object Oriented Programming; inheritance, polymorphism, recursion, GUI basics; designing, coding, and documenting programs; laboratory activities on problem analysis and software development.
-**********************************************************************************************************************************
+Algorithm development for Object Oriented Programming; inheritance, polymorphism, recursion, 
+GUI basics; designing, coding, and documenting programs; laboratory activities on problem analysis 
+and software development.
+
+****************************************************************************************************************************
+
 Content:
 
 Projects (P_01 - P_29)
 
 Homework (Proj_01 - Proj_09)
-**********************************************************************************************************************************
-Unfortunately Program descriptions are NOT available; this is a personal collection of problem approaches for multiple projects, and homework for CS 2012 class (Spring 2018 @ Cal State LA).
 
-
+****************************************************************************************************************************
+Program descriptions available @ root
