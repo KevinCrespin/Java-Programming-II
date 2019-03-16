@@ -2,7 +2,7 @@
 
 This is a personal collection of my programming approaches for Introduction to Java Programming II
 
-Computer Science 2012 (Fall 2017 @ Cal State LA)
+Computer Science 2012 (Spring 2018 @ Cal State LA)
 ****************************************************************************************************************************
 
 Course Description:
