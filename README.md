@@ -20,4 +20,4 @@ Projects (P_01 - P_29)
 Homework (Proj_01 - Proj_09)
 
 ****************************************************************************************************************************
-Program descriptions available @ root
+Program descriptions available only for Homework section
