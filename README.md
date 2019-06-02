@@ -13,11 +13,10 @@ and software development.
 
 ****************************************************************************************************************************
 
-Content:
-
-Projects (P_01 - P_29)
-
-Homework (Proj_01 - Proj_09)
+Content:<br>
+Projects (P_01 - P_29)<br>
+Homework (Proj_01 - Proj_09)<br>
 
 ****************************************************************************************************************************
-Program descriptions available only for Homework section
+Program descriptions available only for Homework sections.<br>
+Code is not commented, or have any documentation.
