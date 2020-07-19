@@ -19,4 +19,5 @@ Homework (Proj_01 - Proj_09)<br>
 
 ****************************************************************************************************************************
 Program descriptions available only for Homework sections.<br>
-Code is not commented, or have any documentation.
+Code is not commented, or have any documentation due to various reasons, including but not limited to lack of time while being coded,<br>
+code is not meant to be revisited, commenting code for homework assigments can sometimes be useless. 
